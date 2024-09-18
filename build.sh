@@ -22,6 +22,6 @@ rm -f config.status
 CFLAGS="-O3 -march=native -Wall" ./configure --with-curl
 #CFLAGS="-O3 -march=native -Wall" CXXFLAGS="$CFLAGS -std=gnu++11" ./configure --with-curl
 
-make -j 4
+make -j 2
 
 strip -s cpuminer
