@@ -5,7 +5,7 @@
 
 set -e
 
-aclocal
+aclocal.m4
 autoheader
 automake --foreign --add-missing --force-missing --copy
 # automake --gnu --add-missing --copy
